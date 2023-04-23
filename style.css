@@ -1,3 +1,105 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+.hlavicka {
+   font-size: 50px;
+   background-color: rgb(136, 157, 150);
+   background-size: cover;
+}
+
+
+body{
+   background-color: rgb(152, 167, 167);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   line-height: 1,5;
+   margin: 0;
+
+}
+
+h1{
+   margin: 0;
+   padding: 20px;
+   text-align: center;
+   font-size: 100px;
+   font-family: 'Delicious Handrawn';
+   font-style: bold;
+     
+}
+
+h2 {
+   text-align: left;
+   color: rgb(13, 6, 71);
+   font-family: 'Delicious Handrawn';
+
+}
+
+section{
+   margin: 0;
+   padding: 20px 15%;
+   overflow: auto;
+   
+}
+
+.menu{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background-color: rgb(50, 48, 50);
+  
+}
+
+.menu li{
+   display: inline-block;
+   padding: 10px 50px;
+}
+
+.menu a {
+   color: aliceblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: normal;
+   text-decoration: none;
+     
+}
+
+
+.Linda {
+   border-radius: 50%;
+   margin: 0 50px 50px 0;
+   padding-top: 50px;
+   float: left;
+  
+}
+
+.Falco1, .Falco2, .Falco3 {
+  float:left;
+  padding-top: 20px;
+ 
+} 
+
+.Falco1{
+   width:47.4%; 
+   
+}
+.Falco2{
+   width:30.5%; 
+}
+
+.Falco3{
+   width: 20%; 
+}
+
+.prace, 
+.cas{
+   background-color: rgb(167, 190, 183);
+
+}
+
+.paticka{
+   font-size: smaller;
+   text-align: center;
+   background-color: black;
+   color: aliceblue;
+   padding: 0;
+}
